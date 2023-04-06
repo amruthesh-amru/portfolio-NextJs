@@ -9,7 +9,7 @@ const userData = {
   projects: [
     {
       title: "Zerodha Kite Clone",
-      link: "https://github.com/akshay1027",
+      link: "https://github.com/A-Finance/kite",
       description: [
         '• Developed 3 features: login, dashboard, and storing instruments CSV data.',
         '• Working on displaying real-time market data.',
