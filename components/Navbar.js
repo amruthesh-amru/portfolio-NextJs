@@ -133,8 +133,13 @@ export default function Navbar() {
             )}
           </Link> */}
         </div>
-
         <div className="space-x-4 flex flex-row items-center">
+          <a href={userData.socialLinks.blog} x>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square h-6 w-5" viewBox="0 0 16 16">
+              <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+              <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
+            </svg>
+          </a>
           <a href={userData.socialLinks.instagram} x>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -212,78 +217,78 @@ export default function Navbar() {
         </div>
       </div>
       <div className="space-x-8 flex justify-center md:hidden mt-4">
-      <Link
-            href="/about"
-            className={`text-base  ${router.asPath === "/about"
-              ? "text-gray-800 font-bold dark:text-gray-400 text-[15px] sm:text-[17px]"
-              : "text-gray-600 dark:text-gray-300 font-normal text-[15px] sm:text-[17px]"
-              }`}
-          >
-            About{" "}
-            {router.asPath === "/about" && (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="bi bi-arrow-down animate-bounce inline-block h-3 w-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                />
-              </svg>
-            )}
-          </Link>
-          <Link
-            href="/projects"
-            className={`text-base  ${router.asPath === "/projects"
-              ? "text-gray-800 font-bold dark:text-gray-400 text-[15px] sm:text-[17px]"
-              : "text-gray-600 dark:text-gray-300 font-normal text-[15px] sm:text-[17px]"
-              }`}
-          >
-            Projects
-            {router.asPath === "/projects" && (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="bi bi-arrow-down animate-bounce inline-block h-3 w-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                />
-              </svg>
-            )}
-          </Link>
-          <Link
-            href="/experience"
-            className={`text-base  ${router.asPath === "/experience"
-              ? "text-gray-800 font-bold dark:text-gray-400 text-[15px] sm:text-[17px]"
-              : "text-gray-600 dark:text-gray-300 font-normal text-[15px] sm:text-[17px]"
-              }`}
-          >
-            Experience{" "}
-            {router.asPath === "/experience" && (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                fill="currentColor"
-                className="bi bi-arrow-down animate-bounce inline-block h-3 w-3"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                />
-              </svg>
-            )}
-          </Link>
+        <Link
+          href="/about"
+          className={`text-base  ${router.asPath === "/about"
+            ? "text-gray-800 font-bold dark:text-gray-400 text-[15px] sm:text-[17px]"
+            : "text-gray-600 dark:text-gray-300 font-normal text-[15px] sm:text-[17px]"
+            }`}
+        >
+          About{" "}
+          {router.asPath === "/about" && (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              className="bi bi-arrow-down animate-bounce inline-block h-3 w-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+              />
+            </svg>
+          )}
+        </Link>
+        <Link
+          href="/projects"
+          className={`text-base  ${router.asPath === "/projects"
+            ? "text-gray-800 font-bold dark:text-gray-400 text-[15px] sm:text-[17px]"
+            : "text-gray-600 dark:text-gray-300 font-normal text-[15px] sm:text-[17px]"
+            }`}
+        >
+          Projects
+          {router.asPath === "/projects" && (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              className="bi bi-arrow-down animate-bounce inline-block h-3 w-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+              />
+            </svg>
+          )}
+        </Link>
+        <Link
+          href="/experience"
+          className={`text-base  ${router.asPath === "/experience"
+            ? "text-gray-800 font-bold dark:text-gray-400 text-[15px] sm:text-[17px]"
+            : "text-gray-600 dark:text-gray-300 font-normal text-[15px] sm:text-[17px]"
+            }`}
+        >
+          Experience{" "}
+          {router.asPath === "/experience" && (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              className="bi bi-arrow-down animate-bounce inline-block h-3 w-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+              />
+            </svg>
+          )}
+        </Link>
         {/* <Link
           href="/contact" text-[15px] sm:text-[17px]
           className="text-base font-normal text-[15px] sm:text-[17px]text-gray-600 dark:text-gray-300"

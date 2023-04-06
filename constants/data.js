@@ -177,6 +177,7 @@ const userData = {
     instagram: "https://instagram.com/akshay_rr10",
     linkedin: "https://linkedin.com/in/akshayrr1027",
     github: "https://github.com/akshay1027",
+    blog: "https://akshayrr.hashnode.dev/"
   },
 };
 
