@@ -51,7 +51,7 @@ export default function AboutMe() {
                 >
                   Resume
                 </a>{" "}
-                and I'd love to work for you.
+                and I'd love to build products for you.
               </p>
             </div>
             {/* Social Links */}

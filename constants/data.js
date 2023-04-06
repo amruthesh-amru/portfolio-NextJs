@@ -172,7 +172,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://drive.google.com/file/d/1MhlVJdcH4f0g4AAv13hpW69ZnLOeafSj/view?usp=share_link",
   socialLinks: {
     instagram: "https://instagram.com/akshay_rr10",
     linkedin: "https://linkedin.com/in/akshayrr1027",
