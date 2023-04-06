@@ -66,11 +66,11 @@ const userData = {
       ]
     },
     {
-      title: "x-meme",
-      link: "https://github.com/akshay1027/x-meme",
+      title: "Other POCs/Projects",
+      link: "https://github.com/akshay1027/Projects",
       description: [
-        '• Share a meme with their name, URL and caption for the meme.',
-        '• ExpressJs, NodeJs, ReactJs, LowDB, Postman'
+        '• All my projects and POCs',
+        '• Learnings | Experimentation | Reverse engineering | Tinkering',
       ]
     },
   ],
@@ -78,7 +78,7 @@ const userData = {
     title:
       "I'm a Full Stack software engineer who loves building and tinkering with software and technology.",
     description: [
-      `A self-taught developer who likes to solve interesting and challenging problems.`, 
+      `A self-taught developer who likes to solve interesting and challenging problems.`,
       `I thrive on self-motivation and excel at articulating loosely defined ideas/problems into solid requirements, delivering code and getting things done, on time. I relish the opportunity to work on development projects at every stage.`,
       `My journey started in may of 2020 (2nd year of engineering), I developed my first web page. Since then, even though am doing my majors in ECE, have always hustled and found time for myself to do programming and build projects along with managing college assignments, records and exams. Covid played a huge part in me learning all these technologies, as classes were online, I was fully able to focus on programming, am thankful for that.`,
       `Am always ready to upskill myself and learn new technologies. I'm that guy who can build a product and get things done on time. Hire me and unleash our potential together, you won't regret it.`,
@@ -94,7 +94,7 @@ const userData = {
       year: "Feb 2023 - April 2023",
       companyLink: "https://dhanlap.com/",
       desc: [
-        '• Collected and scraped over the web to get 2.5k mutual funds data.',
+        '• Scraped, parsed over the web to extract 2.5k mutual funds data',
         '• Modelled schema and wrote complex Ecto queries to retrieve filtered data from the database.',
         '• Dynamically developed around 2.7 K pages for showing all data related to mutual funds.',
         '• Engineered Batch script to update all the data in the database.',
