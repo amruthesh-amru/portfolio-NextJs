@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Text container */}
       <div className="md:w-1/2 mt-0 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
-          <RainbowHighlight color={colors[0]} className="animate-pulse">
+          <RainbowHighlight color={colors[0]}>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-slate-100 px-1 my-2">
               Full Stack Engineer
             </h1>

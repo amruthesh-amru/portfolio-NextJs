@@ -10,11 +10,13 @@ export const RainbowHighlight = ({ color, children }) => {
       type="highlight"
       multiline={true}
       padding={[4, 4]}
-      iterations={1}
+      iterations={4}
       animationDuration={animationDuration}
+      roughness={0} // adjust this value to reduce the roughness
+      bowing={0} // adjust this value to reduce the curvature
       color={color}
     >
       {children}
-    </RoughNotation>
+    </RoughNotation >
   );
 };
