@@ -18,6 +18,7 @@ export default function Projects() {
               link={proj.link}
               description={proj.description}
               number={`${idx + 1}`}
+              repoLink={proj.repoLink}
             />
           ))}
         </div>
@@ -26,13 +27,13 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, description, number }) => {
+const ProjectCard = ({ title, link, description, number, repoLink }) => {
   return (
-    <div className="border-sky-500 dark:border-sky-500 border-l-[4px] shadow-slate-300 dark:shadow-slate-800 p-4 rounded-md shadow-xl dark:shadow-xl">
+    <div className="border-sky-500 dark:border-sky-500 border-l-[4px] shadow-slate-300 dark:shadow-slate-800 p-4 rounded-md shadow-xl dark:shadow-xl flex flex-col items-start justify-between">
       <h1 className="font-semibold text-xl dark:text-gray-200 text-gray-700">
         {title}
       </h1>
-      <p className="text-base font-normal my-4 text-gray-500">
+      <p className="text-base font-normal my-4 text-gray-500 flex">
         {description.map((data, idx) => (
           <React.Fragment key={idx}>
             {data}
@@ -40,15 +41,19 @@ const ProjectCard = ({ title, link, description, number }) => {
           </React.Fragment>
         ))}
       </p>
-      <a
-        href={link}
-        className="font-semibold group flex flex-row space-x-2 w-full items-center"
+      <div
+        className="font-semibold  flex flex-row justify-between space-x-2 w-full items-center"
       >
-        <p>View Repository </p>
-        <div className="transform  group-hover:translate-x-2 transition duration-300">
-          &rarr;
+        <div className="flex group gap-1">
+          <a href={repoLink}><p>View Repository </p></a>
+          <div className="transform  group-hover:translate-x-2 transition duration-300">
+            &rarr;
+          </div>
         </div>
-      </a>
+        <div>
+          <a href={link}><p className="text-[1rem]">Live Demo</p></a>
+        </div>
+      </div>
     </div>
     // <a href={link} className="w-full block shadow-2xl">
     //   <div className="relative overflow-hidden">

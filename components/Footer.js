@@ -13,7 +13,7 @@ export default function Footer() {
               <div className="inline-block transform hover:scale-110 transition duration-300">
                 <a
                   className="text-gray-800 dark:text-white bg-sky-500 rounded-md mx-1 px-2 py-1"
-                  href="https://github.com/akshay1027"
+                  href="https://github.com/amruthesh-amru"
                 >
                   {userData.name}
                 </a>

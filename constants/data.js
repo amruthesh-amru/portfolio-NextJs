@@ -1,183 +1,145 @@
 const userData = {
-  githubUsername: "akshay1027",
-  name: "Akshay R R",
+  githubUsername: "amruthesh-amru",
+  name: "Amruthesh",
   designation: "Full Stack Engineer",
-  avatarUrl: "/avatar.jpg",
-  email: "akshayar1027@gmail.com",
-  phone: "+91 8056701263",
-  address: "Pondicherry, India",
+  avatarUrl: "/me.jpeg",
+  email: "toamruthesh@gmail.com",
+  phone: "+91 6366201977",
+  address: "Mysuru, India",
   projects: [
     {
-      title: "Zerodha Kite Clone",
-      link: "https://github.com/A-Finance/kite",
+      title: "Horanadu Temple Website",
+      link: "https://hornadu.netlify.app/",
+      repoLink: "https://github.com/amruthesh-amru/hornadu",
       description: [
-        '• Developed 3 features: login, dashboard, and storing instruments CSV data.',
-        '• Working on displaying real-time market data.',
-        '• Elixir, Phoenix, Postgres, Ecto, HEEx, Kite connect API'
+        `• Built a responsive website, boosting  online presence and user engagement.`,
+        `• Achieved 2,654 users and 3,759 sessions in one month.`,
+        `• Improved load time by 40% and reduced bounce rate by 20%.`,
+        `• NodeJS, ExpressJS, MongoDB, ReactJS, Tailwind CSS, Postman, Razorpay.`
       ]
     },
     {
-      title: "TrelloX",
-      link: "https://github.com/akshay1027/TrelloX",
+      title: "Tomato",
+      link: "https://fooddelivery-frontend-opd8.onrender.com/",
+      repoLink: "https://github.com/amruthesh-amru/foodDelivery",
       description: [
-        `• Users can create, drag, drop tasks for productivity.`,
-        `• Used socket.io and MongoDb changeStream to facilitate realtime drag drop feature.`,
-        `• NodeJS, ExpressJS, MongoDB, ReactJS, CSS, Postman.`
+        `• Developed a MERN stack food delivery app with real-time order management.`,
+        `• Integrated secure payments via Stripe.`,
+        `• Ensured a smooth user experience across platforms.`,
+        `• NodeJS, ExpressJS, MongoDB, ReactJS, Tailwind CSS, Postman, Stripe.`
       ]
     },
     {
-      title: "Job Application Review Backend",
-      link: "https://github.com/akshay1027/job-application-review",
+      title: "Student’s Community Hub",
+      link: "https://student-community-hub.netlify.app/",
+      repoLink: "https://github.com/amruthesh-amru/community-hub",
       description: [
-        '• CRUD, review application by sending mail using message broker, background worker, resume upload feature, postman documentation.',
-        '• Django (DRF), Celery, RabbitMQ, SQLite, Postman.'
+        '• Created a college platform for collaboration, job listings, and updates.',
+        '• Integrated a lost-and-found system and attendance tracking.',
+        '• Designed an intuitive user interface for seamless navigation and accessibility.',
+        '• ReactJS, Tailwind CSS, Firebase, Google Analytics'
       ]
     },
     {
-      title: "Task Scheduler backend",
-      link: "https://github.com/akshay1027/Task-Scheduler-NodeJS",
+      title: "Nakhsha Builders - Construction",
+      link: "https://naksha-mybuild.netlify.app/",
+      repoLink: "https://github.com/amruthesh-amru/nakhsha-new",
       description: [
-        '• Fetch latest videos from YouTube for a given search query in background, store in DB, return paginated response.',
-        '• ExpressJS, MongoDB, Node-Cron, Postman, Youtube API'
+        `• Developed a website for Nakhsha Builders, Mysore's largest private construction company.`,
+        '• Showcased completed projects and team member details.',
+        '• Included a contact page and information on available packages.',
+        '•  ReactJS, FormSubmit.so'
       ]
     },
     {
-      title: "CRUD in Go",
-      link: "https://github.com/akshay1027/crud-go",
+      title: "Mr. Shoe Cleaner",
+      link: "https://shoecleaner.netlify.app/",
+      repoLink: "https://github.com/amruthesh-amru/shoe-cleaner",
       description: [
-        '• Creacte, Read, Update and Delete API application in Go-lang',
-        '• Go, Go-fiber, MongoDB, Postman'
+        '• Developed a website for Mr. Shoe Cleaner, a shoe cleaning and repair service.',
+        '• Displayed service offerings, pricing, and booking options.',
+        '• Integrated customer reviews and a contact form.',
+        '• ReactJS, Tailwind CSS, FormSubmit.so',
       ]
     },
     {
-      title: "Complete Authentication: Django, React.js",
-      link: "https://github.com/akshay1027/django-react-auth",
+      title: "Nammane Interiors",
+      link: "https://nammane-interiors.netlify.app/",
+      repoLink: "https://github.com/amruthesh-amru/nammane-interior",
       description: [
-        '• Complete authentication and authorisation application',
-        '• DRF, JWT, ReactJS'
+        '• Developed a website for Nammane Interiors, an interior design firm.',
+        '• Showcased portfolio of completed projects and design services.',
+        '• Included client testimonials and a contact form.',
+        '• ReactJS, SCSS, FormSubmit.so',
       ]
     },
-    {
-      title: "Pec Quora",
-      link: "https://github.com/akshay1027/Quora",
-      description: [
-        '• Developing a Forum like website for my college to bridge the gap between Alumni and current students.',
-        '• NodeJS, ExpressJS, MongoDB, ReactJS, CSS, Material-UI.'
-      ]
-    },
-    {
-      title: "Other POCs/Projects",
-      link: "https://github.com/akshay1027/Projects",
-      description: [
-        '• All my projects and POCs',
-        '• Learnings | Experimentation | Reverse engineering | Tinkering',
-      ]
-    },
+
   ],
   about: {
     title:
       "I'm a Full Stack software engineer who loves building and tinkering with software and technology.",
     description: [
       `A self-taught developer who likes to solve interesting and challenging problems.`,
-      `I thrive on self-motivation and excel at articulating loosely defined ideas/problems into solid requirements, delivering code and getting things done, on time. I relish the opportunity to work on development projects at every stage.`,
-      `My journey started in may of 2020 (2nd year of engineering), I developed my first web page. Since then, even though am doing my majors in ECE, have always hustled and found time for myself to do programming and build projects along with managing college assignments, records and exams. Covid played a huge part in me learning all these technologies, as classes were online, I was fully able to focus on programming, am thankful for that.`,
-      `Am always ready to upskill myself and learn new technologies. I'm that guy who can build a product and get things done on time. Hire me and unleash our potential together, you won't regret it.`,
-      `I've been programming and building applications in Python, Elixir, Javascript, Typescript, Go, DRF, Phoenix, NodeJs, ExpressJs, RabbitMQ, Celery, MongoDB, PostgreSQL, Ecto, Mongoose, ReactJs, NextJS, HTML, CSS, Material UI, Tailwind.`,
+      `Hello there! I'm Amruthesh, a passionate full-stack developer with a knack for turning ideas into reality through code. My journey in programming began during my second year of engineering in computer science with Java, and it quickly expanded into the dynamic world of web development with HTML, CSS, and JavaScript. Over time, I have honed my skills in modern frameworks like React and libraries like Splide, as well as backend technologies including Node.js, Express.js, and MongoDB.`,
+      `My work is driven by self-motivation and a passion for solving problems. I excel at transforming loosely defined ideas into concrete requirements, delivering code, and ensuring projects are completed on time. Whether it’s front-end design, back-end development, or full project lifecycle management, I’m eager to take on challenges at every stage.`,
+      `With a strong foundation and a clear vision, I’m dedicated to continuously learning and applying my knowledge to craft impactful solutions that make a difference. Join me as I code my way through challenges, broaden my horizons, and create meaningful web experiences in the ever-evolving world of development.`,
+      `I've been programming and building applications in  Javascript, NodeJs, ExpressJs, MongoDB, Mongoose, ReactJs, NextJS, HTML, CSS, Material UI, Tailwind.`,
     ],
     // currentProject: "Zerodha Kite clone",
     // currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
+
     {
-      title: "Full Stack Engineer Intern",
-      company: "Dhanlap | Ark Neo financial services",
-      year: "Feb 2023 - April 2023",
-      companyLink: "https://dhanlap.com/",
+      title: "Freelance Experience",
+      company: "",
+      year: "Feb 2024 - Present",
+      companyLink: "",
       desc: [
-        '• Scraped, parsed over the web to extract 2.5k mutual funds data',
-        '• Modelled schema and wrote complex Ecto queries to retrieve filtered data from the database.',
-        '• Dynamically developed around 2.7 K pages for showing all data related to mutual funds.',
-        '• Engineered Batch script to update all the data in the database.',
-        '• Directly communicated with CEO, CTO, product, testing and UI/UX designer.',
-        '• Technologies : Elixir, Phoenix, Postgres, Ecto, Postman, EEx (Embedded elixir), Tailwind CSS',
+        '• Built a website for Nakhsha Builders, showcasing projects, team details, and packages.',
+        '• Developed a site for Mr. Shoe Cleaner with service listings, pricing, and booking options.',
+        '• Created a website for Nammane Interiors featuring project portfolios, services, and testimonials.',
+        '• Designed a college platform with job listings, updates, and attendance tracking.'
       ]
     },
     {
-      title: "Full Stack Engineer Intern",
-      company: "Maveric Systems Limited",
-      year: "Nov 2021 - Jan 2022",
-      companyLink: "https://maveric-systems.com/",
+      title: "Software Developement Engineer Intern",
+      company: "Qurativity",
+      year: "Nov 2023 - Jan 2024",
+      companyLink: "https://qurativity.com/index.php",
       desc: [
-        '• Implemented a POC to migrate from the existing backend to microsoft Azure web pubsub service with Flask. The backend establishes websocket connection to enable cross-device communication.',
-        '• Reintegrated authentication from OAuth to Custom Authentication using OTP in frontend.',
-        '• Developed Dashboard referencing figma docs and displayed charts using API data.',
-        '• Technologies : Microsoft Azure, NodeJS, Flask, ReactJS, Tailwind CSS, ChartJS',
+        '• Implemented a responsive design that allowed the application to be used across multiple devices with minimal modifications.',
+        '• Collaborated with cross-functional teams to integrate design elements seamlessly',
+        '• Efficiently managed time to meet tight project deadlines.',
       ]
     },
     {
-      title: "Full Stack Engineer Intern",
-      company: "Gokion",
-      year: "May 2021 - Oct 2021",
+      title: "B.Tech, CSE",
+      company: "Mysuru Royal Institute Of Technology - Mandya",
+      year: "Jan 2022 - Present",
+      companyLink: "https://mysururoyal.org/",
       desc: [
-        '• Developed a landing page referencing figma docs.',
-        '• Developed 5 features: combo, menu, order, invoice, and dashboard screens by integrating REST APIs for SAAS product.',
-        '• Built an internal tool/website to identify customer activity.',
-        '• Technologies: Typescript, NodeJS, ReactJS, Material-UI, HTML, CSS, Postman, redux-toolkit. AWS.'
-      ]
-    },
-    {
-      title: "GSSOC contributor",
-      company: "GirlScript Summer of Code",
-      year: "Feb 2021 - May 2021",
-      companyLink: "https://algochurn.com",
-      desc: [
-        '• Secured a Rank of 20th out of 6000+ developers.',
-        '• Contributed to a variety of projects.',
-        '• Understanding and learning new technologies and packages to implement new features in projects.',
-        '• Demonstrated my skills in React js, HTML , CSS, JavaScript, Redux.'
-      ]
-    },
-    {
-      title: "CWoD Full-stack Developer",
-      company: "CRIO Winter of Doing",
-      year: "Jan 2021 - Mar 2021",
-      companyLink: "https://www.crio.do/crio-winter-of-doing/",
-      desc: [
-        '• Learnt and demonstrated development skills to qualify from stage 1 which comprised 13,000+ developers.',
-        '• Cleared Coding test with a rank of 428 to qualify for stage 2 phase B. (one among 1000 developers)',
-        '• In stage 2 phase B, demonstrated my skills by making a full stack application with REST API archetechture in 8 days.',
-        '• Tech used: Swagger UI for API documentation, React js, JavaScript, React-bootstrap, Node js, Express js, Lowdb, npm package manager, gitlab for version control, testing done with AWS E2 instance.',
-      ]
-    },
-    {
-      title: "B.Tech, ECE",
-      company: "PTU (formerly Pondicherry Engineering College, PEC) - Pondicherry",
-      year: "Aug 2019 - May 2023",
-      companyLink: "http://www.ptuniv.edu.in/",
-      desc: [
-        "• Major in Electronics and Communication Enginnering with a CGPA of 8.72.",
-        "• Started my full stack programmig journey. Built around 10 landing pages for college and department related events.",
-        "• 2x runner in intra department football championship, 1x Winner.",
-        "• Bronze medalist with PEC college team in intercollegiate footnall championship",
-        "• College football team Vice Captain"
+        "• Majoring in Computer Science and Engineering with a CGPA of 8.1",
+        "• 1x first prize in table tennis."
       ]
     },
     {
       title: "High School",
-      company: "KV no. 1, Pondicherry",
-      year: "2017 - 2019",
+      company: "Sadvidya Semi Residential PU College - Mysuru",
+      year: "Jun 2019- Dec 2021",
+      companyLink: "https://ssrpuc.sadvidya.in/",
       desc: [
-        "• Took Physics, Chemistry and Mathematics in 11th and 12th grade."
+        "• Took Physics, Chemistry, Mathematics and Computer Science in 11th and 12th grade."
       ]
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1MhlVJdcH4f0g4AAv13hpW69ZnLOeafSj/view?usp=share_link",
+    "https://drive.google.com/file/d/1TAwO_A2-dLkTDZYw6Atd9bGWPVw8ZK_a/view?usp=drivesdk ",
   socialLinks: {
-    instagram: "https://instagram.com/akshay_rr10",
-    linkedin: "https://linkedin.com/in/akshayrr1027",
-    github: "https://github.com/akshay1027",
-    blog: "https://akshayrr.hashnode.dev/"
+    instagram: "https://www.instagram.com/amruthesh__gowda/",
+    linkedin: "https://www.linkedin.com/in/amruthesh-s/",
+    github: "https://github.com/amruthesh-amru",
+    // blog: "https://akshayrr.hashnode.dev/"
   },
 };
 

@@ -117,52 +117,26 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-1">
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+                src="https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png"
                 className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/28b02bbc9ad9f7a503c43775aebeb515dc2da5fc/topics/elixir/elixir.png"
-                className="bg-white h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/28b02bbc9ad9f7a503c43775aebeb515dc2da5fc/topics/go/go.png"
-                className="bg-white h-20 w-20 mx-4 my-4"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+
             </div>
 
             <h1 className="text-gray-500 dark:text-gray-600 text-2xl rounded-md px-2 mt-4 inline-block font-bold">
               Backend tenchnologies
             </h1>
             <div className="flex flex-row flex-wrap mt-1">
-              <img
-                src="https://user-images.githubusercontent.com/65683151/215454199-7f23401c-a837-465c-b4d1-67b1cb4999e8.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
               <img src="https://avatars.githubusercontent.com/u/24879134?s=200&v=4"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/7456fdff59816d37ef383a6c8f32a26ff7332db2/topics/django/django.png"
-                className="bg-white h-20 w-20 mx-4 my-4"
-              />
+
               <img src="https://avatars.githubusercontent.com/u/5658226?s=200&v=4"
                 className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://avatars.githubusercontent.com/u/96669?s=200&v=4"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://avatars.githubusercontent.com/u/319983?s=200&v=4"
-                className="bg-white h-20 w-20 mx-4 my-4"
               />
             </div>
             <h1 className="text-gray-500 dark:text-gray-600 text-2xl rounded-md px-2 mt-4 inline-block font-bold">
@@ -170,23 +144,14 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-1">
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redis/redis.png"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongoose/mongoose.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img src="https://avatars.githubusercontent.com/u/19973437?s=200&v=4"
-                className="h-20 w-20 mx-4 my-4"
-              />
+
             </div>
             <h1 className="text-gray-500 dark:text-gray-600 text-2xl rounded-md px-2 mt-4 inline-block font-bold">
               Frontend technologies
@@ -209,7 +174,7 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                src="https://raw.githubusercontent.com/github/explore/261c2cda92d09ccad6f8b2dc91af32a2a5856989/topics/tailwind/tailwind.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>
