@@ -139,7 +139,6 @@ const userData = {
     instagram: "https://www.instagram.com/amruthesh__gowda/",
     linkedin: "https://www.linkedin.com/in/amruthesh-s/",
     github: "https://github.com/amruthesh-amru",
-    // blog: "https://akshayrr.hashnode.dev/"
   },
 };
 
