@@ -134,7 +134,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1TAwO_A2-dLkTDZYw6Atd9bGWPVw8ZK_a/view?usp=drivesdk ",
+    "https://drive.google.com/file/d/1Z7JOQBpWPXQpg2baFqyN7jtcRlD_xGIG/view?usp=sharing ",
   socialLinks: {
     instagram: "https://www.instagram.com/amruthesh__gowda/",
     linkedin: "https://www.linkedin.com/in/amruthesh-s/",
