@@ -1,4 +1,3 @@
-// import Head from "next/head";
 import ContainerBlock from "../components/ContainerBlock";
 import WordsIBelieveIn from "../components/WordsIBelieveIn";
 import Hero from "../components/Hero";

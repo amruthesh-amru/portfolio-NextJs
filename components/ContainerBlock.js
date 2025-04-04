@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Amruthesh - Full stack Enginner, tinkerer, problems are opportunities",
     description: "I am a full stack enginner | This is my portfolio website",
-    image: "/me.jpg",
+    image: "/me.jpeg",
     type: "website",
     ...customMeta,
   };
