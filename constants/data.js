@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "amruthesh-amru",
   name: "Amruthesh",
   designation: "Full Stack Engineer",
-  avatarUrl: "/me.png",
+  avatarUrl: "https://ik.imagekit.io/35vayvoxn/amruthesh.jpeg",
   email: "toamruthesh@gmail.com",
   phone: "+91 6366201977",
   address: "Mysuru, India",
