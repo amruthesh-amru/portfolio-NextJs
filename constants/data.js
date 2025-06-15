@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "amruthesh-amru",
   name: "Amruthesh",
   designation: "Full Stack Engineer",
-  avatarUrl: "/me.jpeg",
+  avatarUrl: "/me.png",
   email: "toamruthesh@gmail.com",
   phone: "+91 6366201977",
   address: "Mysuru, India",
@@ -134,7 +134,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1CCQZVxWA9t8ks5umT4glG0j9GixhS5r-/view?usp=sharing",
+    "https://drive.google.com/file/d/1bxaEavLOyIXGanstVvSt_i0UEkhwzA0l/view?usp=sharing",
   socialLinks: {
     instagram: "https://www.instagram.com/amruthesh__gowda/",
     linkedin: "https://www.linkedin.com/in/amruthesh-s/",

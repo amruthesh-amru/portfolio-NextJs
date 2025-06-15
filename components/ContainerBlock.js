@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Amruthesh - Full stack Enginner, tinkerer, problems are opportunities",
     description: "I am a full stack enginner | This is my portfolio website",
-    image: "https://portfolio-nextjs-ivory-omega.vercel.app/me.jpeg",
+    image: "/me.png",
     type: "website",
     ...customMeta,
   };
@@ -22,11 +22,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
+          content={`https://amruthesh.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
+          href={`https://amruthesh.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Amruthesh" />
