@@ -45,13 +45,19 @@ const ProjectCard = ({ title, link, description, number, repoLink }) => {
         className="font-semibold  flex flex-row justify-between space-x-2 w-full items-center"
       >
         <div className="flex group gap-1">
-          <a href={repoLink}><p>View Repository </p></a>
-          <div className="transform  group-hover:translate-x-2 transition duration-300">
-            &rarr;
-          </div>
+          {repoLink && (
+            <a href={repoLink}>
+              <p>View Repository </p>
+            </a>
+          )}
+          {repoLink && (
+            <div className="transform  group-hover:translate-x-2 transition duration-300">
+              &rarr;
+            </div>
+          )}
         </div>
         <div>
-          <a href={link}><p className="text-[1rem]">Live Demo</p></a>
+          <a href={link} target="_blank"><p className="text-[1rem]">Live Demo</p></a>
         </div>
       </div>
     </div>

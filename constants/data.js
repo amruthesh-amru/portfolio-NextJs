@@ -8,6 +8,26 @@ const userData = {
   address: "Mysuru, India",
   projects: [
     {
+      title: "HOS Properties",
+      link: "https://hosproperties.com/",
+      description: [
+        "• Real estate website for Dubai-based luxury agency with property listings and rental calculator.",
+        "• Integrated contact forms and newsletter subscriptions.",
+        "• ReactJS, NextJS, Tailwind CSS, API integration."
+      ]
+    },
+    {
+      title: "AutoPrint X - Print Order System",
+      link: "https://autoprint-x-frontend-deploy.onrender.com", // Add your deployment link if available
+      repoLink: "https://github.com/amruthesh-amru/autoprint-x-frontend-deploy", // Update if different
+      description: [
+        "• Print-ordering platform connecting users with nearby vendors for document printing.",
+        "• Real-time order tracking with automatic printing and payment integration.",
+        "• ReactJS, NodeJS, ExpressJS, MongoDB, Socket.io, Razorpay, Tailwind CSS."
+      ]
+    },
+
+    {
       title: "Horanadu Temple Website",
       link: "https://hornadu.netlify.app/",
       repoLink: "https://github.com/amruthesh-amru/hornadu",
@@ -89,6 +109,18 @@ const userData = {
     // currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
+    {
+      title: "Full Stack Engineer Intern",
+      company: "Coding Pandas",
+      year: "Apr 2025 – May 2025",
+      companyLink: "https://codingpandas.in/",
+      desc: [
+        "• Spearheaded backend development of key e-commerce features such as cart, wishlist, and course reviews for a learning management system using Node.js and Express.js.",
+        "• Completed backend implementation within 30 days, improving usability for both instructors and students.",
+        "• Designed and delivered 12+ production-ready RESTful APIs for student analytics, classroom management, and todo systems with full test coverage.",
+        "• Reduced data redundancy through optimized schema design and merged 7+ PRs enhancing role-based access and blog features."
+      ]
+    },
 
     {
       title: "Freelance Experience",
@@ -99,7 +131,7 @@ const userData = {
         '• Built a website for Nakhsha Builders, showcasing projects, team details, and packages.',
         '• Developed a site for Mr. Shoe Cleaner with service listings, pricing, and booking options.',
         '• Created a website for Nammane Interiors featuring project portfolios, services, and testimonials.',
-        '• Designed a college platform with job listings, updates, and attendance tracking.'
+        '• Developed a real estate site for HOS Properties (Dubai), including listings, seller guides, and yield calculator.'
       ]
     },
     {
